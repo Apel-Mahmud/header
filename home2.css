@@ -1,0 +1,166 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.gonj{
+    display: flex;
+    background-color: aqua;
+}
+.child{
+    display: block;
+    margin-left:20px;
+    height: 100%;
+    align-items: center;
+}
+.child h2 span{
+    color: red;
+    font-style: italic;
+    font-size: 50px;
+}
+.apel ul{
+    display: flex;
+    margin-left: 800px;
+    list-style: none;
+}
+.child ul li{
+    display: block; 
+}
+.child ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    
+}
+.child ul li a:hover{
+    color:rgb(255, 0, 0);
+    background-color:yellow;
+    font-style:italic;
+    border-radius: 25px;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-bar{
+    display: flex;
+    /* background: #000; */
+    width: auto; 
+    height: 100px;}
+.menu-bar ul li {
+    list-style: none;
+    padding:15px; 
+}
+.menu-bar ul li a{
+    text-decoration: none;
+    font-size: 25px;
+    color: #000;
+}
+.menu-bar ul{
+    display: flex;
+      margin-left: 500px;
+}
+.menu-bar li:last-child{
+    border-right: none;
+
+}
+.menu-bar li a:hover{
+    color:red;
+}
+ .sub{
+    display: none;  
+}
+.menu-bar li:hover .sub{
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -10px;
+    background:rgb(148, 148, 74);
+  
+}
+.menu-bar ul li:hover .sub ul{
+    display: block;
+    margin: 10px; 
+} 
+.sub2{
+    display: none;
+    color: #fff;
+}
+.menu-bar li:hover .sub2{
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: -10px;
+    background:rgb(22, 13, 13);
+}
+.menu-bar ul li:hover .sub2 ul{
+    display: block;
+    margin: 15px;
+}
+.menu-bar ul li:hover .sub2 ul li{
+width: 80px;
+text-align: start;
+padding: 5px;
+
+
+}
+
+.sub3{
+    display: none;
+}
+.menu-bar ul li:hover .sub3{
+    display: block;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: absolute;
+    background: blueviolet;
+}
+.menu-bar ul li:hover .sub3 ul{
+    display: block;
+    margin: 15px;
+}
+.sub4{
+    display: none;
+}
+.menu-bar ul li:hover .sub4{
+    display: block;
+    margin-top: 10px;
+    margin-left:-15px;
+    position: absolute;
+    background-color: blue;
+}
+.menu-bar ul li:hover .sub4 ul{
+    display: block;
+    margin: 10px;
+}
+.sub5{
+    display: none;
+}
+.menu-bar ul li:hover .sub5{
+    display: block;
+    margin-top: 10px;
+    margin-left:-15px;
+    position: absolute;
+    background-color: olive;
+}
+.menu-bar ul li:hover .sub5 ul{
+    display: block;
+    margin: 8px;
+}
+.menu-bar ul li:hover .sub5 ul li{
+    width: 40px;
+    padding: 5px;
+    border-bottom: 1px solid red;
+    text-align: start;
+    border-radius: 1px;
+}
+.menu-bar ul li:hover .sub ul li{ width: 30px;
+/* padding: 10px; */
+border-bottom: 2px solid yellow;
+/* text-align: start; */
+border-radius: 50px;
+}
+.menu-bar ul li:hover .sub ul li:last-child{
+/* border-bottom: none; */
+}
+
